@@ -1,0 +1,10 @@
+[
+  {"id":"book-001","name":"Cloud Native Patterns","category":"architecture","style":"technical","description":"A practical guide to resilient cloud services and clear boundaries.","price":88.0,"stock":20,"featured":true},
+  {"id":"book-002","name":"Python for Reliable APIs","category":"programming","style":"technical","description":"Build small, testable HTTP services with Python.","price":72.5,"stock":18,"featured":true},
+  {"id":"book-003","name":"The Data Garden","category":"data","style":"essay","description":"Stories about data systems, search, and useful projections.","price":55.0,"stock":25,"featured":false},
+  {"id":"book-004","name":"Distributed Systems Field Notes","category":"architecture","style":"technical","description":"Failure modes and operating practices for distributed systems.","price":99.0,"stock":12,"featured":true},
+  {"id":"book-005","name":"Designing Friendly Interfaces","category":"design","style":"handbook","description":"A concise handbook for accessible product interfaces.","price":64.0,"stock":14,"featured":false},
+  {"id":"book-006","name":"The Little Query Cookbook","category":"data","style":"cookbook","description":"Practical query patterns for document and key-value data.","price":46.0,"stock":30,"featured":false},
+  {"id":"book-007","name":"Secure Tokens in Practice","category":"security","style":"technical","description":"A field guide to signed tokens, claims, and tenant boundaries.","price":79.0,"stock":10,"featured":false},
+  {"id":"book-008","name":"Stories from the Bookshop","category":"fiction","style":"novel","description":"A warm novel about readers, friends, and second chances.","price":42.0,"stock":22,"featured":false}
+]

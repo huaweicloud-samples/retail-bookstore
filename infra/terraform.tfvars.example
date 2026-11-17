@@ -1,0 +1,16 @@
+region                   = "cn-north-4"
+app_name                 = "bookstore-hw"
+namespace                = "bookstore_hw"
+shared_apig_instance_id = ""
+shared_apig_env_id      = ""
+shared_vpc_id           = ""
+shared_network_id       = ""
+gemini_endpoint          = "10.0.0.10"
+gemini_port              = 8000
+gemini_protocol          = "http"
+gemini_region            = "cn-north-4"
+css_endpoint             = "https://replace-with-css-endpoint"
+dcs_endpoint             = "replace-with-dcs-host"
+frontend_bucket          = ""
+frontend_prefix          = "bookstore/"
+# sensitive values: inject as TF_VAR_jwt_secret / TF_VAR_gemini_access_key / TF_VAR_gemini_secret_key / TF_VAR_css_* / TF_VAR_dcs_password
