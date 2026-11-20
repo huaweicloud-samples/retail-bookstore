@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>云上书店</title>
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div><strong>云上书店</strong><span class="muted">Bookstore</span></div>
+    <label class="endpoint">API <input id="apiBase" placeholder="https://.../bookstore/v1"></label>
+    <label class="token">JWT <input id="jwt" type="password" placeholder="受控测试 token"></label>
+    <button id="saveConfig">保存</button>
+  </header>
+  <main>
+    <section class="hero">
+      <div><p class="eyebrow">READ · DISCOVER · SHARE</p><h1>把下一本好书放进购物车。</h1><p>浏览目录、搜索书籍、查看推荐，并用受控用户身份完成一次模拟结账。</p></div>
+      <div class="hero-card"><span>快捷入口</span><button data-action="bestsellers">畅销榜</button><button data-action="orders">我的订单</button><button data-action="friends">好友推荐</button></div>
+    </section>
+    <section class="toolbar"><input id="search" placeholder="搜索书名、类别或简介"><button id="searchButton">搜索</button><select id="category"><option value="">全部分类</option></select><button id="loadBooks">浏览书籍</button></section>
+    <section id="message" class="message"></section>
+    <section id="content" class="grid"></section>
+    <aside class="cart-panel"><div class="cart-head"><h2>购物车</h2><button id="checkout">模拟结账</button></div><div id="cart"></div></aside>
+  </main>
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>

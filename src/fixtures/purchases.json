@@ -1,0 +1,7 @@
+[
+  {"user_id":"bob","book_id":"book-001","quantity":2},
+  {"user_id":"bob","book_id":"book-004","quantity":1},
+  {"user_id":"carol","book_id":"book-002","quantity":2},
+  {"user_id":"carol","book_id":"book-003","quantity":1},
+  {"user_id":"alice","book_id":"book-005","quantity":1}
+]
